@@ -1,6 +1,7 @@
 # shopping-cart
 
 This project was bootstrapped with [Create React App](https://create-react-app.dev/docs/getting-started/) .
+Uses Jest, Enzyme, and Sinon for testing
 
 
 
@@ -47,12 +48,32 @@ The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 Below you will find  information on how to perform common tasks for testing.
+Before running the npm command for testing,  install enzyme using the following command
+```
+npm install enzyme
+
+```
+and 
+```
+npm install enzyme-adapter-react-16
+```
+
+Then proceed with
 ```
 npm test
 ```
 Launches the test runner in the interactive watch mode.
 
 You can find the most recent version of this guide [here](https://create-react-app.dev/docs/running-tests/).
+
+```
+npm run build
+```
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
   
 Snapshot of the Application
 ![here](https://github.com/Sanchitakr/shopping-cart/blob/master/img/different.PNG)
