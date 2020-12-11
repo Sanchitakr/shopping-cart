@@ -66,12 +66,12 @@ Launches the test runner in the interactive watch mode.
 
 You can find the most recent version of this guide [here](https://create-react-app.dev/docs/running-tests/).
 
+Next execute the following command, 
 ```
 npm run build
 ```
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
   
