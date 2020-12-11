@@ -77,3 +77,15 @@ Your app is ready to be deployed!
   
 Snapshot of the Application
 ![here](https://github.com/Sanchitakr/shopping-cart/blob/master/img/different.PNG)
+
+Future Development -
+ 
+More features that can be implemented to make the usability even better are ,
+
+1. Add number of items in the cart, along with number of products (Order management tools)
+2. Adding multiple image cards, for the customers to view the product entirely
+3. Adding social media plateforms (Marketing and promotional tools)
+4. Adding payment method in conjuction with checkout action (Third-party integrations)
+5. Single-Page, Fast Checkout features
+6. Coupons and Discounts
+7. SSL certificate to secure the payment features
