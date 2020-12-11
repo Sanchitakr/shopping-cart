@@ -1,53 +1,120 @@
-.App {
+@import url('whitespace-reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 26px;
+}
+
+#app {
+  width: 800px;
+  margin: 20px auto 20px auto;
+}
+
+main, header {
+  padding: 20px;
+}
+
+header {
+  background: #be7521;
+  color: #fff;
+  min-height: 100px;
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+  text-align:center;
+  margin-bottom: 60px;
+}
+
+header h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 36px;
+  float: left;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header .cart {
+  float: right;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  background: #e4d6c0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.product {
+  background: #fff;
+  padding: 14px;
+  margin: 0 0 20px 0;
+  border-radius: 4px;
+  position: relative;
+}
+
+h3 {
+  font-size: 26px; 
+}
+
+.product p {
+  margin-bottom: 3px;
+}
+
+.product .price {
+  color: #a83850;
+}
+
+.product .quantity.none-left {
+  color: red;
+}
+
+
+
+.button {
+  padding: 5px 12px 5px;
+  background: #996415;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.button.disabled {
+  background: #ccc;
+  color: #fff;
+  cursor: auto;
+}
+
+.button.checkout {
+  margin-top: 20px;
+  float: right;
+}
+
+.actions {
+  margin-top: 20px;
+}
+#wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#left {
+  flex: 0 0 65%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.products {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-button {
-  font-size: 20px;
-  padding: 10px;
-}
-header {
-  background-color: pink;
-  height: 70px;
-  padding-top: 20px;
+#right {
+  flex: 1;
+  padding-left: 50px;
+  
 }
