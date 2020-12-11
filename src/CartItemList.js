@@ -31,12 +31,12 @@ class CartItemList extends Component {
         <div>
           <h3>Amount: ${(this.totalPrice().toFixed(2))}</h3>
         </div>
-        {/*<div>
+        <div>
           Service Tax (12.50%): ${((this.totalPrice()) * (12.5/100)).toFixed(2)}
-        </div>*/}
-        {/*<div className="total" id="total">
+        </div>
+        <div className="total" id="total">
           <h3>Total: ${((this.totalPrice()-(this.totalPrice()) * (12.5/100))).toFixed(2)}</h3>
-      </div>*/}
+      </div>
         </div>  
     );
   }
